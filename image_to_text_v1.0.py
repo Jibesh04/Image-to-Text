@@ -1,14 +1,3 @@
-"""
-import tkinter as tk
-
-# Create a Tkinter window
-window = tk.Tk()
-
-# Add widgets and perform other GUI operations
-
-# Start the Tkinter event loop
-window.mainloop()
-"""
 from PyQt5 import QtWidgets, uic, QtCore, QtGui
 from PyQt5.QtGui import QImageReader
 from PIL import Image
