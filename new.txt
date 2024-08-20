@@ -1,0 +1,16 @@
+1. Declare a List
+
+final List<String> items = ['January’, ‘February’, iO
+‘March’ ];
+
+2. ListView. builder declaration
+
+fo
+
+body: ListView. builder(
+itemCount: items.length,
+itemBuilder: (context, index) {
+return ListTile(
+title: Text('${items[index]}'),
+
+In this exercise below, create a long list using a ListView. builder.
